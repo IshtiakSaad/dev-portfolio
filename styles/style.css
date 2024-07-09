@@ -12,6 +12,7 @@ header {
     /* background-size: cover; */
     background-position: top left, bottom right;
     background-repeat: no-repeat;
+    border: 1px solid rgb(255, 248, 243);  
 
 }
 
@@ -126,4 +127,220 @@ a{
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+
+/* ---------------------- About Me Section ------------------- */
+
+.bg-primary {
+    background: rgb(255, 248, 243);
+}
+
+.about-me {
+    margin: 130px auto;
+    width: 1138px;
+    /* height: 548px; */
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(255, 248, 243);
+}
+.about-me-box {
+    margin: 131px 156px;
+    /* width: 827px; */
+    /* height: 288px; */
+}
+.section-info {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+.level-2{
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+.section-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.what-i-do .experience {
+    margin: 0px auto 50px;
+    width: 909px;
+    height: 90px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.skills{
+    width: 1138px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 130px;
+}
+.card img {
+    margin: 30px auto 30px 30px
+}
+.card h3 {
+    margin-left: 30px;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card p {
+    margin: 20px auto 30px 33px;
+    width: 201px;
+    height: 196px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Resume Section */
+
+.resume {
+    margin: 113px auto 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1138px;
+}
+.resume-head{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.resume-card h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.resume-card .uni {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.resume-card .info{
+    width: 511px;
+    height: 84px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+hr {
+    width: 558px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+}
+.resume-btn {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 130px 230px;
+    gap: 120px;
+}
+.footer-column .section-title {
+    text-align: left;
+}
+.footer-column p{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 562px;
+    height: 56px;
+    margin-bottom: 32px;
+}
+.icons img{
+    margin-right: 24px;
+}
+input {
+    width: 431px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    border: none;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 30px;
+}
+input[type="submit"] {
+    width: 150px;
 }
